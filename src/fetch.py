@@ -27,7 +27,7 @@ Note: The arguments below must all be inputted if you want to get a list of majo
 def main():
 
     # Options
-    long_options = ["help", "list", "year", "from_school", "to_school"]
+    long_options = ["help", "list=", "year=", "from_school=", "to_school="]
     options = "hl:y:f:t:"
 
     try:
